@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "150546980865",
+    "firebase_url": "https://socialwork-a0eb5.firebaseio.com",
+    "project_id": "socialwork-a0eb5",
+    "storage_bucket": "socialwork-a0eb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150546980865:android:870e6c6f7e35ac53",
+        "android_client_info": {
+          "package_name": "com.vjsm.sports.allmanagerdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150546980865-eot050dvaufvm08qmqnkb1rlkh648rmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjsm.sports.allmanagerdb",
+            "certificate_hash": "d641b4a8bd4897aa63d7d56785dccc0ab6afb032"
+          }
+        },
+        {
+          "client_id": "150546980865-hh4806sbeedl2ooi22c0h9cqoscibcq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjsm.sports.allmanagerdb",
+            "certificate_hash": "ad80f3ec6465cde34b7353e440727daf404a5145"
+          }
+        },
+        {
+          "client_id": "150546980865-qi61tl6al1sjt3m21nlbjv24p7rk8tk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhdKmH7nIEc9z0IU0f20FLf_Oim1jRY7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150546980865-qi61tl6al1sjt3m21nlbjv24p7rk8tk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150546980865:android:7f5bf3f7d83d2be3",
+        "android_client_info": {
+          "package_name": "com.vjsm.sports.kaalai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150546980865-6eoh0g3tecd2mquu634jp7ud9vogjqqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjsm.sports.kaalai",
+            "certificate_hash": "d641b4a8bd4897aa63d7d56785dccc0ab6afb032"
+          }
+        },
+        {
+          "client_id": "150546980865-dr9ci20a71gfhhlnfeei3vfmnondo1qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjsm.sports.kaalai",
+            "certificate_hash": "ad80f3ec6465cde34b7353e440727daf404a5145"
+          }
+        },
+        {
+          "client_id": "150546980865-qi61tl6al1sjt3m21nlbjv24p7rk8tk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhdKmH7nIEc9z0IU0f20FLf_Oim1jRY7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150546980865-qi61tl6al1sjt3m21nlbjv24p7rk8tk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150546980865:android:c173da72fa5157e9",
+        "android_client_info": {
+          "package_name": "com.vjsm.sports.tourantshub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150546980865-vi2id8ff31gm8ukbqnf7fagcsuqqme75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjsm.sports.tourantshub",
+            "certificate_hash": "d641b4a8bd4897aa63d7d56785dccc0ab6afb032"
+          }
+        },
+        {
+          "client_id": "150546980865-qi61tl6al1sjt3m21nlbjv24p7rk8tk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhdKmH7nIEc9z0IU0f20FLf_Oim1jRY7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150546980865-qi61tl6al1sjt3m21nlbjv24p7rk8tk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

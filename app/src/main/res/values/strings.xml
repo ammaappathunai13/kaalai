@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">JalliakttuHUB</string>
+    <string name="Google_API">AIzaSyDZnuoJc-GQESBaY7PBealuz6KciSf-DNw</string>
+    <string-array name="district_list">
+        <item>விழா நடைபெறும் மாவட்டம்</item>
+        <item>----தமிழில் தேர்வு செய்ய----</item>
+        <item>அரியலூர்</item>
+        <item>ஈரோடு </item>
+        <item>உதகமண்டலம்</item>
+        <item>கடலூர்</item>
+        <item>கரூர் </item>
+        <item>கள்ளக்குறிச்சி</item>
+        <item>காஞ்சிபுரம்</item>
+        <item>கிருஷ்ணகிரி</item>
+        <item>கோயம்புத்தூர்</item>
+        <item>சிவகங்கை </item>
+        <item>சென்னை</item>
+        <item>சேலம்</item>
+        <item>தஞ்சாவூர்</item>
+        <item>தர்மபுரி</item>
+        <item>திண்டுக்கல்</item>
+        <item>திருச்சி</item>
+        <item>திருநெல்வேலி</item>
+        <item>திருப்பூர்</item>
+        <item>திருவண்ணாமலை</item>
+        <item>திருவள்ளூர்</item>
+        <item>திருவாரூர்</item>
+        <item>தூத்துக்குடி </item>
+        <item>தேனி</item>
+        <item>நாகப்படடினம்</item>
+        <item>நாகர்கோயில்</item>
+        <item>நாமக்கல்</item>
+        <item>புதுக்கோட்டை</item>
+        <item>பெரம்பலூர்</item>
+        <item>மதுரை</item>
+        <item>ராமநாதபுரம்</item>
+        <item>விருதுநகர்</item>
+        <item>விழுப்புரம்</item>
+        <item>வேலூர்</item>
+    </string-array>
+
+    <string-array name="search_list">
+
+        <item>மாவட்ட வாரியாக பார்க்க</item>
+
+        <item>அரியலூர்</item>
+        <item>ஈரோடு </item>
+        <item>உதகமண்டலம்</item>
+        <item>கடலூர்</item>
+        <item>கள்ளக்குறிச்சி</item>
+        <item>கரூர் </item>
+        <item>காஞ்சிபுரம்</item>
+        <item>கிருஷ்ணகிரி</item>
+        <item>கோயம்புத்தூர்</item>
+        <item>சிவகங்கை </item>
+        <item>சென்னை</item>
+        <item>சேலம்</item>
+        <item>தஞ்சாவூர்</item>
+        <item>தர்மபுரி</item>
+        <item>திண்டுக்கல்</item>
+        <item>திருச்சி</item>
+        <item>திருநெல்வேலி</item>
+        <item>திருப்பூர்</item>
+        <item>திருவண்ணாமலை</item>
+        <item>திருவள்ளூர்</item>
+        <item>திருவாரூர்</item>
+        <item>தூத்துக்குடி </item>
+        <item>தேனி</item>
+        <item>நாகப்படடினம்</item>
+        <item>நாகர்கோயில்</item>
+        <item>நாமக்கல்</item>
+        <item>புதுக்கோட்டை</item>
+        <item>பெரம்பலூர்</item>
+        <item>மதுரை</item>
+        <item>ராமநாதபுரம்</item>
+        <item>விருதுநகர்</item>
+        <item>விழுப்புரம்</item>
+        <item>வேலூர்</item>
+
+    </string-array>
+    //Shared prefernces
+    <string name="UserId">com.vjsm.sports.kaalai.UserId</string>
+    <string name="Password">com.vjsm.sports.kaalai.Password</string>
+    <string name="Language">com.vjsm.sports.kaalai.Language</string>
+    <string name="LoginUserName">com.vjsm.sports.kaalai.UserName</string>
+    <string name="LoginUser_PhoneNumber">com.vjsm.sports.kaalai.PhoneNumber</string>
+
+
+    <string name="title_activity_home_page__loader">Home_page_Loader</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_navigation__drawer">Navigation_Drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home__loader">Home_Loader</string>
+    <string name="title_activity_home__page_loader">Home_PageLoader</string>
+</resources>

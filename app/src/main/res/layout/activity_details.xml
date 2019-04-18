@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight=".01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/cliccc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:background="#61000000"
+            >
+
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photo_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bace"
+                />
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".4"
+            android:scrollbars="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollX="@dimen/cardview_compat_inset_shadow">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:alpha=".5"
+                    android:layout_height="match_parent"
+                    />
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green_300"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="பதிவு செய்தவரின் பெயர்" />
+
+                <TextView
+                    android:id="@+id/nametext"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="this is name text" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/green_300"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ஜல்லிக்கட்டு நடக்கும் இடம்" />
+
+                <TextView
+                    android:id="@+id/places"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+
+                    android:textColor="@color/white"
+
+                    android:layout_height="wrap_content"
+                    android:text="this is will be places" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/green_300"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_height="wrap_content"
+                    android:text="ஜல்லிக்கட்டு நடக்கும் மாவட்டம்" />
+
+                <TextView
+                    android:id="@+id/district"
+                    android:textStyle="bold"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:textColor="@color/white"
+
+                    android:text="This is the District" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:textStyle="bold"
+                    android:textColor="@color/green_300"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ஜல்லிக்கட்டு நடக்கும் நாள்" />
+
+                <TextView
+                    android:id="@+id/stdate"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vizha star date" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:textStyle="bold"
+                    android:textColor="@color/green_300"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="மாடுகளுக்கு டோக்கன் வழங்கும் நாள்" />
+
+                <TextView
+                    android:id="@+id/madTdate"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="maadukalikku token date" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/green_300"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="மாடுபுடி வீரர்களுக்கு டோக்கன் வழங்கும் நாள்" />
+
+                <TextView
+                    android:id="@+id/manTdate"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="manitharkalukku token date" />
+
+                <TextView
+                    android:id="@+id/d"
+                    android:textStyle="bold"
+                    android:textColor="@color/green_300"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="பதிவு செய்தவரின் மொபைல் நம்பர்" />
+
+                <TextView
+                    android:id="@+id/phonenumber"
+                    android:textStyle="bold"
+                    android:textColor="@color/yellow_200"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="phoneNumber" />
+                <Button
+                    android:id="@+id/locations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue_A200"
+                    android:text="Click to Find Location"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ஜல்லிக்கட்டு நடக்கும் இடத்தை Map-ல் பார்க்க."
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/orange_200"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight=".099"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8502010865534472/7948405222">
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

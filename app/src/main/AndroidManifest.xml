@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vjsm.sports.kaalai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@drawable/playstore_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/playstore_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <activity android:name=".SplashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8502010865534472~2852825368"/>
+
+        <activity android:name=".CodeVerification"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Upload"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Show"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Details"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".downlaodpage"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".New_Registration_Login"
+            android:screenOrientation="portrait"
+            />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDZnuoJc-GQESBaY7PBealuz6KciSf-DNw" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/small" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/small" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/blue_100" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="fcm_default_channel" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/small" />
+
+        <service android:name=".FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Maped" />
+        <activity android:name=".Feedback" />
+        <activity
+            android:name=".YoutubeApi"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity android:name=".Yshow"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Login_Page"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Home_page_Loader"
+            android:screenOrientation="portrait"
+
+            android:label="@string/title_activity_home_page__loader"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Home_PageLoader"
+            android:screenOrientation="portrait"
+
+            android:label="@string/title_activity_home__page_loader"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Deletion_Activity">
+            android:screenOrientation="portrait"
+
+        </activity>
+    </application>
+
+</manifest>

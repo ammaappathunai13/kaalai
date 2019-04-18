@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/AlertDialog.AppCompat.Light"
+    android:layout_height="match_parent"
+
+    tools:context=".Maped">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+
+    </fragment>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/relLayout1">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/ic_magnify"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ic_magnify"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:id="@+id/input_search"
+            android:background="@null"
+            android:singleLine="true"
+            android:hint="Search Your Pace with District"
+            android:imeOptions="actionSearch">
+
+        </AutoCompleteTextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:backgroundTintMode="screen"
+        android:background="@drawable/white_border"
+        android:id="@+id/refresh">
+
+        <Button
+            android:id="@+id/Refersh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:visibility="invisible"
+            android:layout_alignParentTop="true"
+            android:text="REFERESH" />
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:visibility="visible"
+            android:text="உங்கள் ஊர் பெயரை தவறில்லாமல் search செய்து
+SAVE lOCATION-ஜ கிளிக் செய்யவும்."
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_border"
+        android:elevation="10dp">
+
+
+        <Button
+            android:id="@+id/saveinstance"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+
+            android:text="Save location"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
